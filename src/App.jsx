@@ -27,7 +27,6 @@ function App() {
               path="app"
               element={
                 <ProtectedRoute>
-                  X
                   <AppLayout />
                 </ProtectedRoute>
               }
