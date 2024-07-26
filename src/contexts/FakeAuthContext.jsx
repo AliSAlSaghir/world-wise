@@ -35,7 +35,7 @@ function AuthProvider({ children }) {
   }
 
   function logout() {
-    dispatch({ type: "login" });
+    dispatch({ type: "logout" });
   }
   return (
     <AuthContext.Provider
